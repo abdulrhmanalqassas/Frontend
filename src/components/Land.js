@@ -28,7 +28,7 @@ export default function Land() {
 
       <section className="about">
         <div className="main">
-          <img alt="hgu" src="img/main-img.png" />
+    
           <div className="about-text">
             <h2>About THE PROJECT</h2>
             <h5>

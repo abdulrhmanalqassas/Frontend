@@ -10,9 +10,10 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <AuthProvider>
-        <Routes>
+        <>an no r </>
+        {/* <Routes>
           <Route path="/*" element={<App />} />
-        </Routes>
+        </Routes> */}
       </AuthProvider>
     </BrowserRouter>
   </React.StrictMode>

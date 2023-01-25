@@ -16,7 +16,7 @@ function App() {
    
       {/* public routes */}
       <Route path="*/*" element={<Land />} />
-      <Route path="/login" element={<Login />} />
+      <Route path="Frontend/login" element={<Login />} />
       <Route path="register" element={<Register />} />
       <Route path="Unauth" element={<Unauth />} />
       <Route path="ResetPassword" element={<ResetPassword />} ></Route>

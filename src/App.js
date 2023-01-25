@@ -15,13 +15,13 @@ function App() {
     <Routes>
    
       {/* public routes */}
-      <Route path="*/*" element={<Land />} />
+      <Route path="Frontend/*" element={<Land />} />
       <Route path="Frontend/login" element={<Login />} />
-      <Route path="register" element={<Register />} />
-      <Route path="Unauth" element={<Unauth />} />
-      <Route path="ResetPassword" element={<ResetPassword />} ></Route>
-      <Route path="verifi" element={<Verifi />} />
-      <Route path="State" element={<State />} />
+      <Route path="Frontend/register" element={<Register />} />
+      <Route path="Frontend/Unauth" element={<Unauth />} />
+      <Route path="Frontend/ResetPassword" element={<ResetPassword />} ></Route>
+      <Route path="Frontend/verifi" element={<Verifi />} />
+      <Route path="Frontend/State" element={<State />} />
       {/* we want to protect these routes */}
 
    

@@ -1,6 +1,5 @@
 import { useRef, useState, useEffect } from "react";
 import axios from "../api/axios";
-import QRCode from "react-qr-code";
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import Nav from "./Nav";
 export default function Verifi() {

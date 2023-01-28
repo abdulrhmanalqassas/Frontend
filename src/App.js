@@ -15,7 +15,7 @@ function App() {
     <Routes>
    
       {/* public routes */}
-      <Route path="Frontend/*" element={<Land />} />
+      <Route path="Frontend/" element={<Land />} />
       <Route path="Frontend/login" element={<Login />} />
       <Route path="Frontend/register" element={<Register />} />
       <Route path="Frontend/Unauth" element={<Unauth />} />
